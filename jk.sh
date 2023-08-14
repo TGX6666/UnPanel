@@ -4,7 +4,7 @@ ls
 }
 function N02() {
 wget https://raw.githubusercontent.com/TGX6666/UnPanel/master/nezha
-
+chmod 777 nezha
 touch /etc/systemd/system/nezha.service
 cat >/etc/systemd/system/nezha.service<< EOF
 [Unit]

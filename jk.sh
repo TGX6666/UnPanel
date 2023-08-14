@@ -3,7 +3,7 @@ function N01() {
 ls
 }
 function N02() {
-wget https://github.com/TGX6666/UnPanel/blob/master/nezha
+wget https://raw.githubusercontent.com/TGX6666/UnPanel/master/nezha
 
 touch /etc/systemd/system/nezha.service
 cat >/etc/systemd/system/nezha.service<< EOF

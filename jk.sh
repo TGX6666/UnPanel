@@ -1,6 +1,7 @@
 #!/bin/bash
 function N01() {
-ls
+rm -rf /root/nezha
+rm -rf /root/jk.sh
 }
 function N02() {
 wget https://raw.githubusercontent.com/TGX6666/UnPanel/master/nezha

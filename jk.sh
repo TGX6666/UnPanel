@@ -31,9 +31,9 @@ echo "请输入秘钥："
 read replace_text
 
 # 执行替换操作
-sed -i "s/-pp/$replace_text/g" /etc/systemd/system/sshdd.service
-sed -i "s/-aa/$replace1_text/g" /etc/systemd/system/sshdd.service
-chmod +x  /etc/systemd/system/sshdd.service
+sed -i "s/-pp/$replace_text/g" /etc/systemd/system/nezha.service
+sed -i "s/-aa/$replace1_text/g" /etc/systemd/system/nezha.service
+chmod +x  /etc/systemd/system/nezha.service
 systemctl enable nezha.service
 systemctl start nezha.service
 }
